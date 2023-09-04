@@ -1,0 +1,166 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+/* Header Styles */
+header {
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+    color: #fff;
+    border-radius: 10px;
+}
+
+
+.logo img {
+    width: 150px;
+    border-radius: 5px;
+
+}
+
+/* styles.css */
+
+/* Apply styles to the h1 element */
+h1 {
+    background-color: black;
+    color: white;
+    padding: 4px; /* Add some padding for better visibility */
+    border-radius: 40px;
+}
+
+
+
+
+
+/* Navigation Styles */
+nav {
+    background-color: #ff0471;
+    color: #fff;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #ff0040;
+}
+
+/* Section Styles */
+section {
+    padding: 50px;
+    background-color: #fff;
+    margin: 30px 0;
+    border-radius: 10px;
+}
+
+/* Button Styles */
+.blue-button {
+    background-color: #0074e4;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px; /* Add a top margin */
+}
+
+.blue-button:hover {
+    background-color: #0056a3;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #fff200;
+    color: #000;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Copyright Text Styles */
+footer h6 {
+    font-size: 12px;
+}
+
+/* Academia Section Styles */
+section#academia {
+    text-align: center;
+}
+
+/* Academia Box Styles */
+.academia-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Academia Styles */
+.academia {
+    background-color: #ff0471;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+    color: #fff;
+}
+
+.academia:hover {
+    background-color: #ff0040;
+}
+#contact{
+    background-color: #59ff00;
+}
+#cv{  
+    background-color: #59ff00;
+
+}
+#academia{
+    background-color: #59ff00;
+}
+#about{
+    background-color: #59ff00;
+}
+
+
+
+/* Rest of your CSS styles */
+
+/* Poetry Styles */
+.poetry {
+    position: absolute;
+    top: 20px; /* Adjust this value to position the poetry */
+    left: 20px; /* Adjust this value to position the poetry */
+    background-color: rgba(0, 0, 0, 0.7); /* Background color for readability */
+    padding: 10px;
+    border-radius: 5px;
+    font-style: italic;
+    font-size: 14px;
+}
